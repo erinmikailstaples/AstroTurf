@@ -1,0 +1,50 @@
+name: Garden Keeper
+
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'lawn-health.json'
+  issues:
+    types: [opened, closed]
+  pull_request:
+    types: [opened, closed]
+
+permissions:
+  contents: write
+
+jobs:
+  tend-garden:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow
+
+      - name: Run garden script
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: |
+          python scripts/garden_bot.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "garden-bot"
+          git config user.email "garden-bot@users.noreply.github.com"
+          git add garden.md garden.svg lawn-health.json seedlings weeds || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(garden): refresh story and image"
+            git push
+          fi

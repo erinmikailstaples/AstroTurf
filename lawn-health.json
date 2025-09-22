@@ -1,5 +1,5 @@
 {
-  "lawnHealthIndex": 72,
+  "lawnHealthIndex": 71,
   "status": "patchy but acceptable",
   "weeds": {
     "count": 4,
@@ -79,8 +79,14 @@
       "ERROR WeedDaemon: dandelion process respawned"
     ],
     "traces": [
-      { "span": "bee-flight", "latencyMsP95": 120 },
-      { "span": "worm-dig", "latencyMsP95": 450 }
+      {
+        "span": "bee-flight",
+        "latencyMsP95": 120
+      },
+      {
+        "span": "worm-dig",
+        "latencyMsP95": 450
+      }
     ],
     "dashboards": [
       "Lushness Overview",
@@ -116,8 +122,16 @@
     "robotVacuumEscapes": 0
   },
   "maintenanceBacklog": [
-    { "id": "LH-12", "title": "Refactor sprinkler zones", "priority": "low" },
-    { "id": "LH-19", "title": "Upgrade mower firmware to v1.2.3", "priority": "medium" }
+    {
+      "id": "LH-12",
+      "title": "Refactor sprinkler zones",
+      "priority": "low"
+    },
+    {
+      "id": "LH-19",
+      "title": "Upgrade mower firmware to v1.2.3",
+      "priority": "medium"
+    }
   ],
   "changelog": [
     "2025-09-20: Migrated from Hose v1 to Pipeline-as-Grass",
@@ -131,6 +145,5 @@
     "sre",
     "dashboard"
   ],
-  "lastUpdated": "2025-09-22T19:45:00Z"
+  "lastUpdated": "2025-09-22T23:52:21.754768+00:00"
 }
-

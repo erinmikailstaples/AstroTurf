@@ -1,0 +1,14 @@
+name: Astroturf
+description: Make a random, silly grass-themed commit to keep the lawn green
+outputs:
+  commit_message:
+    description: The commit message chosen by astroturf
+    value: ${{ steps.run.outputs.commit_message }}
+runs:
+  using: composite
+  steps:
+    - id: run
+      name: Run astroturf
+      shell: bash
+      run: |
+        bash .github/actions/astroturf/astroturf.sh

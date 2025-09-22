@@ -1,0 +1,136 @@
+{
+  "lawnHealthIndex": 72,
+  "status": "patchy but acceptable",
+  "weeds": {
+    "count": 4,
+    "impact": "medium",
+    "lastWeed": "Issue #87 - Null pointer exception disguised as dandelion"
+  },
+  "seeds": {
+    "count": 3,
+    "sprouting": 2,
+    "failed": 1,
+    "lastSeed": "PR #102 - Added README fertilizer"
+  },
+  "wateringFrequency": "irregular",
+  "grassType": "synthetic (AstroTurf v2.0)",
+  "lushnessPercent": 63,
+  "commitFertilizer": {
+    "dailyCommits": 1,
+    "streak": 29,
+    "notes": "Mostly whitespace and nonsense haikus"
+  },
+  "pestActivity": [
+    "merge conflicts",
+    "unused dependencies",
+    "linting errors"
+  ],
+  "neighborComparison": {
+    "neighborLawnScore": 88,
+    "envyLevel": "high"
+  },
+  "sli": {
+    "greenCoveragePercent": 68,
+    "brownSpotP95mm": 37,
+    "bladeHeightVarianceP95mm": 6,
+    "dewTimeUptimePercent": 99.1
+  },
+  "slo": {
+    "targetGreenCoveragePercent": ">= 80%",
+    "allowedBrownSpotMinutesPerWeek": 42,
+    "onCallRotation": "Sprinkler SREs"
+  },
+  "errorBudget": {
+    "brownSpotMinutesRemainingThisQuarter": 310,
+    "consumedPercent": 26
+  },
+  "sprinklerPipelines": [
+    {
+      "name": "Nightly-Soak",
+      "schedule": "0 3 * * *",
+      "durationMinP50": 18,
+      "lastRunStatus": "flaky - wind-induced"
+    },
+    {
+      "name": "PR-Preview-Mist",
+      "schedule": "on PR open",
+      "durationMinP50": 5,
+      "lastRunStatus": "skipped - cold front"
+    }
+  ],
+  "mowerCI": {
+    "lastRun": "2025-09-21T16:04:00Z",
+    "bladesSharpened": false,
+    "build": {
+      "status": "unstable",
+      "warnings": 7
+    },
+    "test": {
+      "total": 42,
+      "passed": 39,
+      "failed": 3,
+      "flaky": 5
+    }
+  },
+  "observability": {
+    "logs": [
+      "WARN SprinklerController: throttle triggered at zone-3",
+      "INFO GnomeService: health check passed",
+      "ERROR WeedDaemon: dandelion process respawned"
+    ],
+    "traces": [
+      { "span": "bee-flight", "latencyMsP95": 120 },
+      { "span": "worm-dig", "latencyMsP95": 450 }
+    ],
+    "dashboards": [
+      "Lushness Overview",
+      "Brown-Spot Explorer",
+      "Neighbor Envy Index"
+    ]
+  },
+  "featureFlags": {
+    "enableSunshineExperiment": true,
+    "useCompostBeta": false,
+    "autoWeedCreateIssue": true
+  },
+  "security": {
+    "gnomeFirewallEnabled": true,
+    "moleTunnelsDetected": 2,
+    "hedgeAuth": "OIDC (Open Ivy Dandelion Connect)"
+  },
+  "soil": {
+    "pH": 6.7,
+    "moisturePercent": 41,
+    "compaction": "medium",
+    "sentiment": "cautiously optimistic"
+  },
+  "aesthetics": {
+    "colorHex": "#6AB04C",
+    "stripingScore": 58,
+    "edgeAlignment": "±2cm",
+    "gnomeCount": 3
+  },
+  "traffic": {
+    "footstepsPerHourP95": 12,
+    "dogVisitsToday": 1,
+    "robotVacuumEscapes": 0
+  },
+  "maintenanceBacklog": [
+    { "id": "LH-12", "title": "Refactor sprinkler zones", "priority": "low" },
+    { "id": "LH-19", "title": "Upgrade mower firmware to v1.2.3", "priority": "medium" }
+  ],
+  "changelog": [
+    "2025-09-20: Migrated from Hose v1 to Pipeline-as-Grass",
+    "2025-09-18: Introduced ENV VAR SUNSHINE_LEVEL=partly_cloudy"
+  ],
+  "tags": [
+    "lawn",
+    "metrics",
+    "parody",
+    "observability",
+    "sre",
+    "dashboard"
+  ],
+  "lastUpdated": "2025-09-22T19:45:00Z"
+}
+

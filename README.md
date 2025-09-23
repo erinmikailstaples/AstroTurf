@@ -30,6 +30,23 @@ This command initiates our automated botanical content generation system, which 
 
 **IMPORTANT**: All contributions must maintain strict adherence to grass, turf, and botanical themes. This repository operates under rigorous botanical standards to ensure content quality and thematic consistency.
 
+## Scriptable: Plant Haiku Widget (iOS)
+
+You can enjoy silly plant-themed haikus on your iPhone using the Scriptable app.
+
+Steps:
+
+1. Install Scriptable from the App Store.
+2. Open `scripts/Scriptable-Plant-Haikus.js` and copy its contents.
+3. In Scriptable, create a new script and paste the code.
+4. Run it directly to preview, or add it as a Home Screen widget:
+   - Long-press the Home Screen → “+” → search “Scriptable”.
+   - Choose Small widget → Add Widget.
+   - Tap the widget → select the `Scriptable-Plant-Haikus` script.
+   - Optionally set the widget to run on tap to cycle haikus.
+
+The script randomly rotates between different plant-related haikus and shows a gentle green gradient background. If you run it inside this repo with Node, it will print a simple boxed preview to the console.
+
 ## Research Areas
 
 - **Turf Management**: Advanced techniques for optimal grass health

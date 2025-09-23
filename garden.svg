@@ -1,94 +1,179 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='800' height='320' viewBox='0 0 800 320'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 320' width='100%' height='auto' preserveAspectRatio='xMidYMid meet' role='img' aria-label='Silly Garden status'>
 <defs>
   <linearGradient id='sky' x1='0' y1='0' x2='0' y2='1'>
     <stop offset='0%' stop-color='#87CEEB' />
     <stop offset='100%' stop-color='#E0F7FA' />
   </linearGradient>
+  <linearGradient id='hill' x1='0' y1='0' x2='0' y2='1'>
+    <stop offset='0%' stop-color='rgba(20,120,40,0.95)' />
+    <stop offset='100%' stop-color='rgba(10,80,30,0.95)' />
+  </linearGradient>
+  <filter id='ds' x='-10%' y='-10%' width='120%' height='120%'>
+    <feDropShadow dx='0' dy='2' stdDeviation='3' flood-color='rgba(0,0,0,0.25)' />
+  </filter>
+  <style><![CDATA[
+      .label { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #263238; }
+      .card { fill: rgba(255,255,255,0.9); }
+      svg { max-width: 100%; height: auto; }
+    ]]></style>
 </defs>
 <rect x='0' y='0' width='800' height='200' fill='url(#sky)' />
 <rect x='0' y='200' width='800' height='120' fill='rgb(30,194,60)' />
-<circle cx='80' cy='60' r='22' fill='#ECEFF1' opacity='0.9' />
-<path d='M0,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M10,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M20,320 q5,-40 0,-80' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M30,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M40,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M50,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M60,320 q5,-14 0,-28' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M70,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M80,320 q5,-35 0,-70' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M90,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M100,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M110,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M120,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M130,320 q5,-26 0,-52' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M140,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M150,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M160,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M170,320 q5,-32 0,-64' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M180,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M190,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M200,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M210,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M220,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M230,320 q5,-26 0,-52' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M240,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M250,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M260,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M270,320 q5,-32 0,-64' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M280,320 q5,-28 0,-56' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M290,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M300,320 q5,-24 0,-48' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M310,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M320,320 q5,-23 0,-46' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M330,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M340,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M350,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M360,320 q5,-25 0,-50' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M370,320 q5,-20 0,-40' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M380,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M390,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M400,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M410,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M420,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M430,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M440,320 q5,-19 0,-38' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M450,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M460,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M470,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M480,320 q5,-25 0,-50' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M490,320 q5,-32 0,-64' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M500,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M510,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M520,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M530,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M540,320 q5,-16 0,-32' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M550,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M560,320 q5,-35 0,-70' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M570,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M580,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M590,320 q5,-33 0,-66' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M600,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M610,320 q5,-20 0,-40' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M620,320 q5,-31 0,-62' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M630,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M640,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M650,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M660,320 q5,-25 0,-50' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M670,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M680,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M690,320 q5,-34 0,-68' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M700,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M710,320 q5,-26 0,-52' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M720,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M730,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M740,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M750,320 q5,-12 0,-24' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M760,320 q5,-16 0,-32' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M770,320 q5,-16 0,-32' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M780,320 q5,-26 0,-52' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<path d='M790,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
-<rect x='160' y='20' rx='8' ry='8' width='600' height='160' fill='rgba(255,255,255,0.85)' />
-<text x='180' y='40' font-family='monospace' font-size='16' fill='#263238'>Lawn Health Index 73/100, lushness 63%. Seeds: 4, Weeds: 4.</text>
-<text x='180' y='64' font-family='monospace' font-size='16' fill='#263238'>🌱 A new seed has been planted. Mulch with design discussions; waiting for bees (reviewers).</text>
+<circle cx='80' cy='60' r='22' fill='#ECEFF1' opacity='0.95' />
+<circle cx='774' cy='34' r='1.8' fill='white' opacity='0.9' />
+<circle cx='145' cy='114' r='1.8' fill='white' opacity='0.9' />
+<circle cx='401' cy='51' r='1.8' fill='white' opacity='0.9' />
+<circle cx='348' cy='37' r='1.8' fill='white' opacity='0.9' />
+<circle cx='224' cy='106' r='1.8' fill='white' opacity='0.9' />
+<circle cx='678' cy='31' r='1.8' fill='white' opacity='0.9' />
+<circle cx='724' cy='74' r='1.8' fill='white' opacity='0.9' />
+<circle cx='152' cy='23' r='1.8' fill='white' opacity='0.9' />
+<circle cx='215' cy='47' r='1.8' fill='white' opacity='0.9' />
+<circle cx='358' cy='84' r='1.8' fill='white' opacity='0.9' />
+<circle cx='736' cy='23' r='1.8' fill='white' opacity='0.9' />
+<circle cx='694' cy='45' r='1.8' fill='white' opacity='0.9' />
+<circle cx='678' cy='73' r='1.8' fill='white' opacity='0.9' />
+<circle cx='345' cy='77' r='1.8' fill='white' opacity='0.9' />
+<circle cx='723' cy='55' r='1.8' fill='white' opacity='0.9' />
+<circle cx='126' cy='117' r='1.8' fill='white' opacity='0.9' />
+<circle cx='283' cy='109' r='1.8' fill='white' opacity='0.9' />
+<circle cx='552' cy='63' r='1.8' fill='white' opacity='0.9' />
+<circle cx='404' cy='39' r='1.8' fill='white' opacity='0.9' />
+<circle cx='340' cy='117' r='1.8' fill='white' opacity='0.9' />
+<circle cx='464' cy='33' r='1.8' fill='white' opacity='0.9' />
+<circle cx='214' cy='68' r='1.8' fill='white' opacity='0.9' />
+<circle cx='219' cy='65' r='1.8' fill='white' opacity='0.9' />
+<circle cx='472' cy='97' r='1.8' fill='white' opacity='0.9' />
+<circle cx='390' cy='123' r='1.8' fill='white' opacity='0.9' />
+<path d='M0,190 C120,150 220,220 360,190 C500,160 620,210 800,180 L800,200 L0,200 Z' fill='url(#hill)' opacity='0.25' />
+<path d='M0,205 C160,175 260,230 420,205 C580,180 660,220 800,200 L800,220 L0,220 Z' fill='url(#hill)' opacity='0.35' />
+<path d='M0,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M10,320 q5,-30 0,-60' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M20,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M30,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M40,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M50,320 q5,-23 0,-46' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M60,320 q5,-32 0,-64' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M70,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M80,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M90,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M100,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M110,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M120,320 q5,-20 0,-40' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M130,320 q5,-30 0,-60' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M140,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M150,320 q5,-10 0,-20' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M160,320 q5,-12 0,-24' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M170,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M180,320 q5,-24 0,-48' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M190,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M200,320 q5,-19 0,-38' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M210,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M220,320 q5,-25 0,-50' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M230,320 q5,-27 0,-54' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M240,320 q5,-26 0,-52' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M250,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M260,320 q5,-10 0,-20' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M270,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M280,320 q5,-20 0,-40' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M290,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M300,320 q5,-23 0,-46' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M310,320 q5,-31 0,-62' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M320,320 q5,-12 0,-24' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M330,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M340,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M350,320 q5,-16 0,-32' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M360,320 q5,-35 0,-70' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M370,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M380,320 q5,-35 0,-70' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M390,320 q5,-19 0,-38' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M400,320 q5,-20 0,-40' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M410,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M420,320 q5,-37 0,-74' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M430,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M440,320 q5,-39 0,-78' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M450,320 q5,-34 0,-68' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M460,320 q5,-16 0,-32' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M470,320 q5,-24 0,-48' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M480,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M490,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M500,320 q5,-38 0,-76' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M510,320 q5,-41 0,-82' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M520,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M530,320 q5,-40 0,-80' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M540,320 q5,-19 0,-38' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M550,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M560,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M570,320 q5,-11 0,-22' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M580,320 q5,-28 0,-56' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M590,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M600,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M610,320 q5,-30 0,-60' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M620,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M630,320 q5,-33 0,-66' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M640,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M650,320 q5,-22 0,-44' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M660,320 q5,-21 0,-42' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M670,320 q5,-32 0,-64' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M680,320 q5,-36 0,-72' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M690,320 q5,-24 0,-48' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M700,320 q5,-30 0,-60' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M710,320 q5,-15 0,-30' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M720,320 q5,-17 0,-34' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M730,320 q5,-40 0,-80' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M740,320 q5,-23 0,-46' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M750,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M760,320 q5,-29 0,-58' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M770,320 q5,-28 0,-56' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M780,320 q5,-18 0,-36' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<path d='M790,320 q5,-13 0,-26' stroke='rgba(20,80,20,0.6)' stroke-width='2' fill='none' />
+<g transform='translate(120,270)'>
+  <line x1='0' y1='0' x2='0' y2='40' stroke='#2e7d32' stroke-width='2'/>
+  <circle cx='0' cy='0' r='6' fill='#ff6f61'/>
+  <circle cx='-6' cy='-3' r='4' fill='#ffd166'/>
+  <circle cx='6' cy='-3' r='4' fill='#ffd166'/>
+</g>
+<g transform='translate(170,270)'>
+  <line x1='0' y1='0' x2='0' y2='40' stroke='#2e7d32' stroke-width='2'/>
+  <circle cx='0' cy='0' r='6' fill='#ff6f61'/>
+  <circle cx='-6' cy='-3' r='4' fill='#ffd166'/>
+  <circle cx='6' cy='-3' r='4' fill='#ffd166'/>
+</g>
+<g transform='translate(220,270)'>
+  <line x1='0' y1='0' x2='0' y2='40' stroke='#2e7d32' stroke-width='2'/>
+  <circle cx='0' cy='0' r='6' fill='#ff6f61'/>
+  <circle cx='-6' cy='-3' r='4' fill='#ffd166'/>
+  <circle cx='6' cy='-3' r='4' fill='#ffd166'/>
+</g>
+<g transform='translate(270,270)'>
+  <line x1='0' y1='0' x2='0' y2='40' stroke='#2e7d32' stroke-width='2'/>
+  <circle cx='0' cy='0' r='6' fill='#ff6f61'/>
+  <circle cx='-6' cy='-3' r='4' fill='#ffd166'/>
+  <circle cx='6' cy='-3' r='4' fill='#ffd166'/>
+</g>
+<g transform='translate(140,300)'>
+  <path d='M0,0 q-6,-16 0,-32 q6,16 0,32' fill='none' stroke='#6d4c41' stroke-width='2'/>
+  <circle cx='0' cy='-32' r='5' fill='#8e24aa'/>
+</g>
+<g transform='translate(190,300)'>
+  <path d='M0,0 q-6,-16 0,-32 q6,16 0,32' fill='none' stroke='#6d4c41' stroke-width='2'/>
+  <circle cx='0' cy='-32' r='5' fill='#8e24aa'/>
+</g>
+<g transform='translate(240,300)'>
+  <path d='M0,0 q-6,-16 0,-32 q6,16 0,32' fill='none' stroke='#6d4c41' stroke-width='2'/>
+  <circle cx='0' cy='-32' r='5' fill='#8e24aa'/>
+</g>
+<g transform='translate(290,300)'>
+  <path d='M0,0 q-6,-16 0,-32 q6,16 0,32' fill='none' stroke='#6d4c41' stroke-width='2'/>
+  <circle cx='0' cy='-32' r='5' fill='#8e24aa'/>
+</g>
+<rect x='160' y='20' rx='10' ry='10' width='600' height='180' class='card' filter='url(#ds)' />
+<switch>
+  <foreignObject x='176' y='34' width='568' height='152' requiredExtensions='http://www.w3.org/1999/xhtml'>
+    <div xmlns='http://www.w3.org/1999/xhtml' style='font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:16px; line-height:1.35; color:#263238; word-wrap:break-word; overflow:hidden'>Lawn Health Index 74/100, lushness 63%. Seeds: 4, Weeds: 4.</div>
+  </foreignObject>
+  <g>
+    <text x='180' y='44' class='label' font-size='16'>Lawn Health Index 74/100, lushness 63%. Seeds: 4, Weeds: 4.</text>
+  </g>
+</switch>
 </svg>

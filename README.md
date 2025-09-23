@@ -6,6 +6,11 @@ AstroTurf is a tiny, intentionally silly repo that treats your project like a la
 
 ![Garden Status](garden.svg)
 
+## Parody and intent
+- **This is satire**: A tongue‑in‑cheek commentary on the ridiculousness of evaluating developers by green contribution squares on a profile.
+- **Vibe‑coded from mobile**: This repo embraces casual, sometimes chaotic, phone‑tapped commits; the point is the playfulness, not performative productivity.
+- **Not a metric**: Nothing here is a real performance or hiring signal. Please do not lawn-measure your teammates.
+
 ## What is this?
 A parody “observability” toy that generates a lawn dashboard and story out of repo-ish events. It updates a whimsical SVG and a short narrative in `garden.md`, backed by a JSON blob of totally serious lawn telemetry.
 

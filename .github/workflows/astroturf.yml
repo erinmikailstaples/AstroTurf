@@ -1,4 +1,4 @@
-name: Astroturf: Synthetic Grassroots Maintenance
+name: Astroturf: Synthetic Grassroots Maintenance 🧪🌾
 
 on:
   schedule:
@@ -10,21 +10,21 @@ permissions:
 
 jobs:
   astroturf:
-    name: Turf the Narrative (Totally Organic)
+    name: Turf the Narrative 🎩 (Totally Organic)
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (rolling out the green carpet)
+      - name: Checkout the Repo 🧻 (rolling out the green carpet)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Set up Bot Persona (very human, definitely)
+      - name: Set up Bot Persona 🤖 (very human, definitely)
         run: |
           git config user.name "Astroturf Bot"
           git config user.email "astroturf-bot@users.noreply.github.com"
-      - name: Sow Synthetic Seeds
+      - name: Sow Synthetic Seeds 🌱 (100% artisanal plastic)
         id: turf
         uses: ./.github/actions/astroturf
-      - name: Commit and Push (if the crowd shows up)
+      - name: Commit + Push 🎯 (if the crowd shows up)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
@@ -33,7 +33,7 @@ jobs:
           else
             echo "No changes to commit."
           fi
-      - name: Announce Push (Chaos Mode vibes?)
+      - name: Announce Push 📣 (Chaos Mode vibes?)
         if: ${{ (github.ref_name == 'main' || github.ref_name == 'master') }}
         uses: actions/github-script@v7
         env:
